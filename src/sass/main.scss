@@ -121,7 +121,7 @@ $padding-space: 4em;
 .post__text .entry-title {
     font-size: 28px;
     margin-top: 0;
-    line-height: 1.2;
+    line-height: 1;
     color: $marrom;
     >a {
         text-decoration: none;
@@ -139,7 +139,7 @@ $padding-space: 4em;
 }
 
 .fp-posts .entry-meta {
-    color: #999;
+    color: #727272;
     a {
         color: inherit;
         text-decoration: none;
@@ -322,7 +322,7 @@ hr {
 
 .single-post .entry-meta {
     color: #757575;
-    padding-bottom: 1em;
+    padding-top: 1em;
     a {
         color: inherit;
         text-decoration: none;
@@ -335,3 +335,35 @@ hr {
         font-weight: 700;
     }
 }
+
+/* WIDGETS */
+
+.widget-area {
+    @media (min-width: 1024px) {
+        padding-left: 4%;
+    }
+}
+
+.widget_recent_entries{
+    border-top: 2px solid $azul;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+
+    > ul {
+        list-style: none;
+        margin: 0;
+    }
+
+    > ul > li {
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+
+    > ul > li > a {
+        text-decoration: none;
+        color: $black;
+        &:hover {
+            border-bottom: 1px dashed $black;
+        }
+    }
+} 
