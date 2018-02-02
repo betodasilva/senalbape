@@ -29,9 +29,9 @@
 						</div>
 						<div class="col col-3">
 							<h4>Funcionamento</h4>
-							<p>Segunda à Sexta-Feira:<br>8h30 às 12h00 e 13h15 às 17h00</p>
+							<p>Segunda à Sexta-Feira:<br>09h00 às 11h00 e 13h00 às 17h00</p>
 							<div><b>Homologações</b></div>
-							<span>Segunda à Sexta-Feira:<br>8h30 às 11h30 e 13h15 às 16h30</span>
+							<span>Segunda à Sexta-Feira:<br>09h30 às 11h00 e 13h00 às 17h00</span>
 						</div>
 						<div class="col col-3">
 							<h4>Siga-nos</h4>
