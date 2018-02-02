@@ -28,7 +28,7 @@ get_header(); ?>
     <div class="container">
         <div class="row gutters">
             <div class="fp-posts col col-8">
-                <h3 class="section-title">NOTÍCIAS RECENTES</h3>
+                <h2 class="section-title">NOTÍCIAS RECENTES</h2>
                 <?php 
                     
                 $args = array( 
@@ -43,7 +43,7 @@ get_header(); ?>
                 else :
                     get_template_part( 'template-parts/content', 'none' );
                 endif; ?>
-                <button class="w100 load-more">Ver todas as notícias</button>
+                <a href="/noticias" class="w100 button load-more">Ver todas as notícias</a>
             </div>
             <div class="col col-4">
                 <?php get_sidebar(); ?>
