@@ -26,8 +26,8 @@ get_header(); ?>
 </section>
 <section class="fp-content">
     <div class="container">
-        <div class="row">
-            <div class="fp-posts col col-9">
+        <div class="row gutters">
+            <div class="fp-posts col col-8">
                 <h3 class="section-title">NOTÍCIAS RECENTES</h3>
                 <?php 
                     
@@ -44,6 +44,9 @@ get_header(); ?>
                     get_template_part( 'template-parts/content', 'none' );
                 endif; ?>
                 <button class="w100 load-more">Ver todas as notícias</button>
+            </div>
+            <div class="col col-4">
+                <?php get_sidebar(); ?>
             </div>
         </div>
     </div>
