@@ -36,11 +36,10 @@ get_header(); ?>
 				</div>
 
 			</div>
-			
-
+			<hr>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	
 <?php
 
 get_footer();
