@@ -41,7 +41,7 @@ function create_slider_posttype() {
       'menu_icon' => 'dashicons-images-alt',
       'capability_type' => 'page',
       'rewrite' => array( 'slider-loc', 'post_tag' ),
-      'label'  => 'Simple slides',
+      'label'  => 'Slides',
       'supports' => array( 'title', 'editor', 'custom-fields', 'thumbnail', 'page-attributes')
     );
     register_post_type( 'slider', $args );
