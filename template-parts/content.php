@@ -10,27 +10,27 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('single-post'); ?>>
-		<?php if ( 'post' === get_post_type() ) : ?>
-			<div class="entry-meta row">
-				<div class="col">
-					<?php senalbape_posted_on(); ?>
-				</div>
-				<div class="col push-right">
-					<?php 
-					$categories_list = get_the_category_list( esc_html__( ', ', 'senalbape' ) );
-						if ( $categories_list ) {
-							/* translators: 1: list of categories. */
-							printf( '<span class="cat-links">' . esc_html__( 'Em %1$s', 'senalbape' ) . '</span>', $categories_list ); // WPCS: XSS OK.
-						}
-					?>
-				</div>
-				
-			</div><!-- .entry-meta -->
-		<?php
-		endif; ?>
 	<div class="single-image">
 		<?php senalbape_post_thumbnail(); ?>
 	</div>
+	<?php if ( 'post' === get_post_type() ) : ?>
+		<div class="entry-meta row">
+			<div class="col">
+				<span>Postado em </span>
+				<?php senalbape_posted_on(); ?>
+				<span> | </span>
+				<?php 
+				$categories_list = get_the_category_list( esc_html__( ', ', 'senalbape' ) );
+					if ( $categories_list ) {
+						/* translators: 1: list of categories. */
+						printf( '<span class="cat-links">' . esc_html__( '%1$s', 'senalbape' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+					}
+				?>
+			</div>				
+			
+		</div><!-- .entry-meta -->
+	<?php
+	endif; ?>
 	<div class="single-text">
 		<header class="entry-header">
 			<?php

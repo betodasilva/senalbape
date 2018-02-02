@@ -12,8 +12,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'featured-post col col-3' ); ?>>
 	<a href="<?php the_permalink();?>">
 		<?php senalbape_post_thumbnail(); ?>
-		<div class="fp__title">
-			<h4><?php the_title(); ?></h4>
+		<div class="fp__title-bar">
+			<h5 class="fp__title"><?php the_title(); ?></h5>
 		</div>
 	</a>
 </article><!-- #post-<?php the_ID(); ?> -->

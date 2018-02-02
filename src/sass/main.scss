@@ -233,14 +233,13 @@ hr {
     text-decoration: none;
 }
 
-.fp__title {
+.fp__title-bar {
     background: #fcf8f8;
     padding: 10px;
     text-decoration: none;
-    h4 {
+    .fp__title {
         text-align: center;
         margin: 0;
-        font-size: 18px;
     }
 }
 
@@ -338,11 +337,6 @@ hr {
 
 /* WIDGETS */
 
-.widget-area {
-    @media (min-width: 1024px) {
-        padding-left: 4%;
-    }
-}
 
 .widget_recent_entries{
     border-top: 2px solid $azul;
