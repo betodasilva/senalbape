@@ -12,7 +12,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container">
 			<div class="row gutters">
-				<div class="col col-9">
+				<div class="col col-8">
 					<?php
 					while ( have_posts() ) : the_post();
 
@@ -28,9 +28,9 @@ get_header(); ?>
 					endwhile; // End of the loop.
 					?>	
 				</div>
-
-				<?php get_sidebar(); ?>
-				
+				<div class="col col-4">
+					<?php get_sidebar(); ?>
+				</div>
 				
 			</div>
 			<hr>
