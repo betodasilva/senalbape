@@ -34,9 +34,9 @@
 					</div><!-- .site-branding -->
 				</div>
 				<div class="col col-6">
-					<div class="row">
-						<div class="col col-4 push-right"><p><i class="fa fa-envelope"></i> email@email.com.br</p></div>
-						<div class="col col-4"><p><i class="fa fa-phone"></i> (81) 9 9888.8888</p></div>
+					<div class="row gutters">
+						<div class="col col-5" style="margin-left:auto;"><p><i class="fa fa-envelope"></i> senalbapecr@hotmail.com</p></div>
+						<div class="col col-4"><p><i class="fa fa-phone"></i> (81) 9 3421-9844</p></div>
 						<!-- TODO: ICONS -->
 						
 					</div>

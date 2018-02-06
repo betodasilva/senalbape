@@ -61,17 +61,17 @@ get_header(); ?>
             </div>
             <div class="col col-4">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado1.png' ?>">
+                    <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado01.png' ?>" class="forca">
                 </a>
             </div>
             <div class="col col-4">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado2.png' ?>">
+                    <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado02.png' ?>" class="cnteec">
                 </a>
             </div>
             <div class="col col-4">
                 <a href="#" target="_blank">
-                <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado3.png' ?>">
+                <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado03.png' ?>" class="fitedca">
                 </a>
             </div>
         </div>

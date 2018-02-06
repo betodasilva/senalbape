@@ -21,11 +21,11 @@
 					<div class="row">
 						<div class="col col-3">
 						<h4>Endereço</h4>
-						<p>R. Barão de São Borja, 62 - Boa Vista, Recife - PE, 50070-310</p>
+						<p>R. Barão de São Borja, 62 - Soledade, Recife - PE, 50070-310</p>
 						</div>
 						<div class="col col-3">
 							<h4>Contato</h4>
-							<p>Tel/Fax: (81) 3421-9844<br>contato@senalbape.com.br</p>
+							<p>Tel/Fax: (81) 3421-9844<br>senalbapecr@hotmail.com</p>
 						</div>
 						<div class="col col-3">
 							<h4>Funcionamento</h4>
@@ -35,14 +35,14 @@
 						</div>
 						<div class="col col-3">
 							<h4>Siga-nos</h4>
-							<a href="#" target="_blank" class="footer-sn">
+							<a href="https://www.facebook.com/senalbapernambuco/" target="_blank" class="footer-sn fb">
 								<i class="fa fa-facebook"></i>
 							</a>
-							<a href="#" target="_blank" class="footer-sn">
+							<a href="https://www.instagram.com/senalbapernambuco" target="_blank" class="footer-sn insta">
 								<i class="fa fa-instagram"></i>
 							</a>
-							<a href="#" target="_blank" class="footer-sn">
-								<i class="fa fa-google-plus"></i>
+							<a href="https://www.twitter.com/senalbape" target="_blank" class="footer-sn twitter">
+								<i class="fa fa-twitter"></i>
 							</a>
 						</div>
 					</div>
@@ -59,7 +59,7 @@
 							</span>
 						</div>
 						<div class="col push-right">
-							<span>Agência prismee</span>
+							<span><i class="ic ic--prismee"></i>Agência prismee</span>
 						</div>
 					</div>
 				</div>
