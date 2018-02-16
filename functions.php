@@ -152,6 +152,32 @@ add_action('init', 'tags_support_all');
 add_action('pre_get_posts', 'tags_support_query');
 
 /**
+ * Filter the except length to 20 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+/**
+ * Filter the "read more" excerpt string link to the post.
+ *
+ * @param string $more "Read more" excerpt string.
+ * @return string (Maybe) modified "read more" excerpt string.
+ */
+function custom_excerpt_more( $more ) {
+    return sprintf( '<a class="read-more small" href="%1$s">%2$s &#8608;</a>',
+        get_permalink( get_the_ID() ),
+        __( 'Continue lendo', 'textdomain' )
+    );
+}
+add_filter( 'excerpt_more', 'custom_excerpt_more' );
+
+
+/**
  * Add slide
  */
 require get_template_directory() . '/inc/custom-slider.php';

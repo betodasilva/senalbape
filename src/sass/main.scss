@@ -116,6 +116,7 @@ $padding-space: 4em;
 
 .post__text {
     padding-left: 20px;
+    p { margin-bottom: 10px; }
 }
 
 .post__text .entry-title {
@@ -165,6 +166,16 @@ hr {
     border-bottom: none;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.read-more {
+    color: $color-lightgray;
+    text-decoration: none;
+    display: block;
+    // margin-left: 10px;
+    &:visited, &:hover, &:active {
+        color: $color-midgray;
+    }
 }
 
 
