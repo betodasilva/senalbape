@@ -5,6 +5,20 @@ $black: #424242;
 $marrom: #a15541;
 $azul: #415783;
 $padding-space: 4em;
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab", serif;
+}
+
 @mixin tablet {
     @media (min-width: #{$sm}) and (max-width: #{$md - 1px}) {
         @content;
@@ -63,9 +77,6 @@ $padding-space: 4em;
 
 /* HEADER */
 
-// .main-header {
-//     // padding-top: 20px;
-// }
 .main-nav {
     background-color: $marrom;
 }
