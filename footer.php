@@ -18,7 +18,7 @@
 		
 			<div class="top-footer">
 				<div class="container">
-					<div class="row">
+					<div class="row gutters">
 						<div class="col col-3">
 						<h4>Endereço</h4>
 						<p>R. Barão de São Borja, 62 - Soledade, Recife - PE, 50070-310</p>
