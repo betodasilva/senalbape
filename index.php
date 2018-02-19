@@ -17,7 +17,19 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container">
 			<div class="row gutters">
+				
 				<div class="col col-8">
+					<h1 class="page-title"><?php wp_title() ?></h1>
+					<div class="noticias-categories">
+						<ul>
+							<?php wp_list_categories( array(
+								'order' => 'DESC',
+								'include' => array( 6, 7),
+								'title_li' => ''
+							) ); ?> 
+						</ul>
+				
+					</div>
 					<?php
 					if ( have_posts() ) :
 
