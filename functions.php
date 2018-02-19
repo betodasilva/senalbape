@@ -106,8 +106,18 @@ add_action( 'after_setup_theme', 'senalbape_content_width', 0 );
  */
 function senalbape_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'senalbape' ),
+		'name'          => esc_html__( 'Home Sidebar', 'senalbape' ),
 		'id'            => 'sidebar-1',
+		'description'   => esc_html__( 'Add widgets here.', 'senalbape' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Pages Sidebar', 'senalbape' ),
+		'id'            => 'sidebar-2',
 		'description'   => esc_html__( 'Add widgets here.', 'senalbape' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
@@ -169,7 +179,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
  * @return string (Maybe) modified "read more" excerpt string.
  */
 function custom_excerpt_more( $more ) {
-    return sprintf( '<a class="read-more small" href="%1$s">%2$s &#8608;</a>',
+    return sprintf( '<a class="read-more small" href="%1$s">%2$s &#8702;</a>',
         get_permalink( get_the_ID() ),
         __( 'Continue lendo', 'textdomain' )
     );
