@@ -16,12 +16,12 @@
 	<footer id="colophon" class="site-footer">
 		
 		
-			<div class="top-footer">
+			<div class="top-footer sec-space">
 				<div class="container">
 					<div class="row gutters">
 						<div class="col col-3">
 						<h4>Endereço</h4>
-						<p>R. Barão de São Borja, 62 - Soledade, Recife - PE, 50070-310</p>
+						<p>R. Barão de São Borja, 62 - Soledade, Recife - PE, 50070-310.<br>Edifício Sigma Center</p>
 						</div>
 						<div class="col col-3">
 							<h4>Contato</h4>
