@@ -34,10 +34,10 @@
 							the_custom_logo(); ?>
 					</div><!-- .site-branding -->
 				</div>
-				<div class="col col-6">
-					<div class="row gutters">
-						<div class="col col-5" style="margin-left:auto;"><p><i class="fa fa-envelope"></i> senalbapecr@hotmail.com</p></div>
-						<div class="col col-4"><p><i class="fa fa-phone"></i> (81) 9 3421-9844</p></div>
+				<div class="col col-4 push-right">
+					<div class="row gutters header-info">
+						<div class="col col-12"><p class="hi-p midgray"><i class="fa fa-envelope"></i> senalbapecr@hotmail.com</p></div>
+						<div class="col col-12"><p class="hi-p midgray"><i class="fa fa-phone"></i> (81) 9 3421-9844</p></div>
 						<!-- TODO: ICONS -->
 						
 					</div>
