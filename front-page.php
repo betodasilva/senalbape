@@ -24,7 +24,7 @@ get_header(); ?>
         <?php endif;?>
     </div>
 </section>
-<section class="fp-content">
+<section class="fp-content sec-space">
     <div class="container">
         <div class="row gutters">
             <div class="fp-posts col col-8">
