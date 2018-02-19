@@ -85,7 +85,7 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px;
     @include desktop() {
-        padding-left: 150px;
+        padding-left: 180px;
     }
 }
 
@@ -103,13 +103,36 @@ h6 {
 
 .logo-container {
     position: relative;
-    min-height: 180px;
+    min-height: 120px;
+    @media (min-width: 768px) {
+        min-height: 160px;  
+    }
+    @include desktop(){
+        min-height: 180px;
+    }
+    
     img {
         position: absolute;
     }
 }
 
-
+.header-info {
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    .col { margin-bottom: 0 !important; } 
+    .hi-p {
+        text-align: right;
+        margin-bottom: 0;
+        font-size: 14px;
+        @include tablet{
+            font-size: 16px;
+        }
+        @include desktop{
+            text-align: right;
+            font-size: 16px;
+        }
+    }
+}
 /* SLIDER */
 
 .slider-container {
@@ -119,8 +142,7 @@ h6 {
 
 
 /* FRONT PAGE POSTS */
-
-.fp-content {
+.sec-space {
     padding-top: $padding-space;
     padding-bottom: $padding-space;
 }
@@ -182,7 +204,8 @@ hr {
 .read-more {
     color: $color-lightgray;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    margin-left: 10px;
     // margin-left: 10px;
     &:visited, &:hover, &:active {
         color: $color-midgray;
@@ -224,9 +247,6 @@ hr {
     line-height: 1.6;
 }
 
-.top-footer {
-    padding: 2em 0;
-}
 
 .bottom-footer {
     padding: 1em 0;
@@ -243,17 +263,19 @@ hr {
     align-items: center;
     width: 42px;
     height: 42px;
-    border-radius: 100%;
-    background: #ccc;
-    text-decoration: none;
-    color: $black;
-    &:visited,
-    {
-        color: inherit;
+    &:not(:last-child) {
+        margin-right: 10px;
     }
-
-    &:hover, &:active {
-        color: #fff;
+    border-radius: 100%;
+    background: $azul;
+    text-decoration: none;
+    color: $color-aluminum;
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus
+    {
+        color: $color-aluminum;
     }
 
     $fb: #3b5998;
@@ -304,12 +326,13 @@ hr {
 }
 
 .fp__title-bar {
-    background: #fcf8f8;
+    background: $marrom;
     padding: 10px;
     text-decoration: none;
     .fp__title {
         text-align: center;
         margin: 0;
+        color: #f6f6f6;
     }
 }
 
@@ -423,15 +446,20 @@ hr {
     }
 
     .fp-content .widget-area {
-        padding-left: 40px;
+        // padding-left: 40px;
         padding-top: 70px;
     }
 }
 
-.widget_recent_entries{
+.widget_recent_entries,
+.widget_polls-widget,
+.widget_text.elp-widget {
     border-top: 2px solid $azul;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     padding: 20px;
+}
+.widget_recent_entries{
+    
 
     > ul {
         list-style: none;
@@ -457,4 +485,45 @@ hr {
 .search-title {
     margin-top: 0;
     margin-bottom: 40px;
+}
+
+.noticias-categories > ul {
+    margin-left: 0;
+    // margin-top: 2em;
+    margin-bottom: 2em;
+    
+
+    > li {
+        display: inline-block;
+        padding-right: 10px;
+    
+        &:not(:first-child) {
+            padding-left: 10px;
+        }
+
+        &:not(:last-child) {
+            
+            border-right: 1px solid $azul;
+        }
+
+        > a {
+            text-decoration: none;
+            color: $azul;
+            font-weight: 700;
+            font-size: 1.1111em;
+        }
+    
+
+    }
+}
+
+/* PAGES */
+.page-title {
+    color: $marrom;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.page-image {
+    margin-bottom: 1em;
 }
