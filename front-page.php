@@ -60,12 +60,12 @@ get_header(); ?>
                 <h3>Filiado à</h3>
             </div>
             <div class="col col-4">
-                <a href="#" target="_blank">
+                <a href="http://www.fsindical.org.br/" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado01.png' ?>" class="forca">
                 </a>
             </div>
             <div class="col col-4">
-                <a href="#" target="_blank">
+                <a href="http://cnteec.org.br/new" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . '/dist/images/filiado02.png' ?>" class="cnteec">
                 </a>
             </div>
