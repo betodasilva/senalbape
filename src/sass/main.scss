@@ -458,6 +458,7 @@ hr {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
+
 .widget_recent_entries{
     
 
@@ -479,6 +480,22 @@ hr {
         }
     }
 } 
+
+.wp-polls .Buttons {
+    background: $azul;
+    color: #fff;
+    font-size: 14px;
+}
+
+.widget_text.elp-widget input {
+    width: 100%;
+}
+.widget_text.elp-widget .es_textbox_button {
+    background: $azul;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
 
 /* SEARCH */
 
