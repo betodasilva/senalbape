@@ -25,7 +25,7 @@
 						</div>
 						<div class="col col-3">
 							<h4>Contato</h4>
-							<p>Tel/Fax: (81) 3421-9844<br>senalbapecr@hotmail.com</p>
+							<p>Tel/Fax: (81) 3421-9844<br>senalbapecr@hotmail.com<br>assessoriasenalbape@hotmail.com</p>
 						</div>
 						<div class="col col-3">
 							<h4>Funcionamento</h4>
