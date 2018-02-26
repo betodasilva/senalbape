@@ -96,19 +96,22 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px;
     @include desktop() {
-        padding-left: 180px;
+        padding-left: 190px;
     }
 }
 
 .main-nav__list>li {
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
     >a {
         font-size: 14px;
         color: #fff;
         text-decoration: none;
         text-transform: uppercase;
+    }
+    @include desktop(){
+        &:not(:last-child) {
+            margin-right: 25px;
+        }
     }
 }
 
@@ -554,4 +557,11 @@ hr {
 
 .page-image {
     margin-bottom: 1em;
+}
+
+
+/* PLUGINS */
+
+.ssb_inline-share_heading {
+    padding-top: 20px;
 }
