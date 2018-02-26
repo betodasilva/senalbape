@@ -74,6 +74,17 @@ h6 {
     }
 }
 
+.ghost-link {
+    text-decoration: none;
+    color: inherit;
+    &:visited,
+    &:hover,
+    &:active {
+        color: inherit;
+    }
+
+    &:focus { outline: none; }
+}
 
 /* HEADER */
 

@@ -22,6 +22,7 @@
 						<div class="col col-3">
 						<h4>Endereço</h4>
 						<p>R. Barão de São Borja, 62 - Soledade, Recife - PE, 50070-310.<br>Edifício Sigma Center</p>
+						<p><i class="fa fa-map"></i> <a href="https://www.google.com.br/maps/place/Condom%C3%ADnio+Edif%C3%ADcio+Sigma+Center+-+R.+Bar%C3%A3o+de+S%C3%A3o+Borja,+62+-+Boa+Vista,+Recife+-+PE,+50070-310/@-8.061502,-34.8893334,18z/data=!3m1!4b1!4m5!3m4!1s0x7ab18c6cfca0227:0x43edb3762622206d!8m2!3d-8.0615047!4d-34.8882391?hl=pt-BR" target="blank" class="ghost-link">Ver no mapa</a></p>
 						</div>
 						<div class="col col-3">
 							<h4>Contato</h4>
@@ -38,7 +39,7 @@
 							<a href="https://www.facebook.com/senalbapernambuco/" target="_blank" class="footer-sn fb">
 								<i class="fa fa-facebook"></i>
 							</a>
-							<a href="https://www.instagram.com/senalbapernambuco" target="_blank" class="footer-sn insta">
+							<a href="https://www.instagram.com/senalbapecr" target="_blank" class="footer-sn insta">
 								<i class="fa fa-instagram"></i>
 							</a>
 							<a href="https://www.twitter.com/senalbape" target="_blank" class="footer-sn twitter">
